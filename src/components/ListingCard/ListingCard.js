@@ -85,7 +85,7 @@ export const ListingCardComponent = props => {
       <div className={css.info}>
         <div className={css.price}>
           <div className={css.priceValue} title={priceTitle}>
-            {formattedPrice}
+            1 Lune
           </div>
           <div className={css.perUnit}>
             <FormattedMessage id={unitTranslationKey} />
